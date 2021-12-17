@@ -7,7 +7,7 @@ async function main() {
   console.log('_____________________starting');
   try {
     const { server, api } = await createApiServer();
-    const port = 3000;
+    const port = 4000;
     server.listen(port, () => {
       console.log(`➠  Api Server is running`);
       console.log(`http://127.0.0.1:${port}`);
